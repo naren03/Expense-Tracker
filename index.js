@@ -2,13 +2,13 @@
 let transactions = [
 	{
 		id: 1,
-		text: 'Cash Given To Mahesh',
-		amount: -100,
+		text: 'Salary',
+		amount: 3000,
 	},
 	{
 		id: 2,
-		text: 'Recived from Bhai',
-		amount: 500,
+		text: 'Given To GF',
+		amount: -500,
 	},
 	{
 		id: 3,
@@ -22,7 +22,7 @@ let transactions = [
 	},
 	{
 		id: 5,
-		text: 'Salary',
+		text: 'GF Given Back',
 		amount: 500,
 	},
 ];
