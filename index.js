@@ -119,9 +119,9 @@ function addNewTransaction(e) {
 }
 
 function deleteTransaction(e) {
-	// console.log(e.target.parentElement.firstChild.innerText);
+	// console.log(e.target.firstChild.innerText);
 
-	let item = e.target.parentElement.firstChild.innerText;
+	let item = e.target.firstChild.innerText;
 
 	transactions = transactions.filter((transaction) => {
 		return transaction.text != item;
